@@ -1,4 +1,4 @@
-package intw.writtenexams;
+package com.test;
 
 public class StringOpp {
 	public static void main(String[] args) {

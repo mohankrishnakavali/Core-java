@@ -1,4 +1,4 @@
-package intw.writtenexams;
+package com.test;
 
 public class Char {
 

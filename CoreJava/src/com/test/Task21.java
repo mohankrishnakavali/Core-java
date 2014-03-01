@@ -1,10 +1,11 @@
-package intw.writtenexams;
+package com.test;
 
 import java.util.Scanner;
 
-public class MissingCharectorFinding {
+public class Task21 {
 
 	public static void main(String[] args) {
+
 		Scanner scan = new Scanner(System.in);
 
 		int stringLength1, stringLength2;
@@ -20,21 +21,21 @@ public class MissingCharectorFinding {
 		stringLength2 = input2.length();
 		characters1 = input1.toCharArray();
 		characters2 = input2.toCharArray();
-		
-		for (int i = 0; i < characters1.length; i++) {
-			for (int j = 0; j < characters2.length; j++) {
+		for (int i = 0; i < stringLength1; i++) {
+			// System.out.println(characters[i]);
+			for (int j = 0; j < stringLength2; j++) {
 				if (characters1[i]==(characters2[j])) {
+					System.out.println(characters1[i]+":::: "+characters2[i]);
 					b = true;
-					System.out.println("arrayA element \"" + characters1[i]
-							+ "\" was found in arrayB");
+					System.out.println("true");
+				} else {
+					b = false;
+					System.out.println(characters1[i]+":::: "+characters2[i]);
+					System.out.println("False");
+					break;
 				}
 			}
-			if (b == false) {
-				System.out.println("arrayA element \"" + characters1[i]
-						+ "\" was Not found in arrayB");
-			}
-			b = false;
 		}
+		// System.out.println(characters.length);
 	}
-
 }

@@ -1,4 +1,4 @@
-package intw.writtenexams;
+package com.test;
 
 class StringRev2 {
 	public static void main(String args[]) {

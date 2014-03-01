@@ -1,4 +1,4 @@
-package intw.writtenexams;
+package com.test;
 
 import java.util.HashMap;
 import java.util.Map;
