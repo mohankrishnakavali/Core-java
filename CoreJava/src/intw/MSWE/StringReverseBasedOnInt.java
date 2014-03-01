@@ -1,4 +1,4 @@
-package intw.writtenexams;
+package intw.MSWE;
 
 public class StringReverseBasedOnInt {
 
